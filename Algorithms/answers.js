@@ -109,13 +109,13 @@ console.log("There are " + count + " multiples of 5 from 512 to 4096.");
 // Multiples of Six
 console.log("\nMultiples of Six");
 var x = 6;
-var mult = 1;
+var multiple = 1;
 while (true) {
-    console.log(x * mult);
-    if (x * mult == 60000) {
+    console.log(x * multiple);
+    if (x * multiple == 60000) {
         break;
     }
-    mult++;
+    multiple++;
 }
 
 // Counting, the Dojo Way
