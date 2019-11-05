@@ -1,0 +1,27 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+addOdds	Algorithms/answers.js	/^function addOdds(num1, num2) {$/;"	f
+beCheerful	Algorithms/answers.js	/^function beCheerful() {$/;"	f
+birthday	Algorithms/answers.js	/^function birthday(var1, var2) { \/\/ Takes two-digit month and day as input in any order$/;"	f
+count	Algorithms/answers.js	/^var count = 0;$/;"	v
+finalCountdown	Algorithms/answers.js	/^function finalCountdown(param1, param2, param3, param4) {$/;"	f
+flexCountdown	Algorithms/answers.js	/^function flexCountdown(lowNum, highNum, mult) {$/;"	f
+highNum	Algorithms/answers.js	/^var highNum = 9;$/;"	v
+i	Algorithms/answers.js	/^var i = 2000;$/;"	v
+i	Algorithms/answers.js	/^var i = 2016;$/;"	v
+known	Algorithms/answers.js	/^function known(incoming) {$/;"	f
+leapYear	Algorithms/answers.js	/^function leapYear(year) {$/;"	f
+lowNum	Algorithms/answers.js	/^var lowNum = 2;$/;"	v
+mult	Algorithms/answers.js	/^var mult = 3;$/;"	v
+multiple	Algorithms/answers.js	/^var multiple = 1;$/;"	v
+myName	Algorithms/answers.js	/^var myName = "Nicholas";$/;"	v
+myNumber	Algorithms/answers.js	/^var myNumber = 42;$/;"	v
+temp	Algorithms/answers.js	/^var temp = myNumber;$/;"	v
+update	1. Introduction to Programming/1. academy-ninja-master/Nicholas_Denny_index.html	/^        function update() {$/;"	f
+update	1. Introduction to Programming/1. academy-ninja-master/index.html	/^    	function update(){$/;"	f
+x	Algorithms/answers.js	/^var x = 3;$/;"	v
+x	Algorithms/answers.js	/^var x = 6;$/;"	v

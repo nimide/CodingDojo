@@ -1,5 +1,5 @@
 {
-    "editor.fontFamily": "UbuntuMono NF",
+    "editor.fontFamily": "UbuntuMono Nerd Font",
     "editor.fontLigatures": true,
     "debug.console.fontSize": 22,
     "markdown.preview.fontSize": 22,
@@ -7,5 +7,5 @@
     "usql.resultsFontSize": 22,
     "rest-client.fontSize": 22,
     "terminal.integrated.fontSize": 22,
-    "editor.fontSize": 13
+    "editor.fontSize": 22
 }
