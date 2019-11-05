@@ -34,7 +34,7 @@ beCheerful();
 // Multiples of Three -- but Not All
 console.log("\nMultiples of Three -- but Not All");
 var x = 3;
-for (var i = -100; i < 0; i++) {
+for (var i = -100; i <= 0; i++) {
     if (x * i == -6 || x * i == -3) {
         continue;
     }
@@ -142,3 +142,66 @@ known();
 
 // Whoa, That Sucker's Huge...
 console.log("\nWhoa, That Sucker's Huge...");
+sum = 0;
+
+function addOdds(num1, num2) {
+    if (num1 == num2) {
+        sum = 0;
+    } else
+        for (var i = num1; i <= num2; i++) {
+            if (i % 2 != 0) {
+                sum = sum + i;
+            }
+        }
+}
+addOdds(-300000, 300000);
+console.log(sum);
+
+// Countdown by Fours
+console.log("\nCountdown by Fours");
+var i = 2016;
+while (i > 0) {
+    console.log(i);
+    i -= 4;
+}
+
+// Flexible Countdown
+console.log("\nFlexible Countdown version 1");
+var lowNum = 2;
+var highNum = 9;
+var mult = 3;
+for (var i = highNum; i >= lowNum; i--) {
+    if (i % mult == 0) {
+        console.log(i);
+    }
+}
+
+console.log("\nFlexible Countdown version 2");
+
+function flexCountdown(lowNum, highNum, mult) {
+    for (var i = highNum; i >= lowNum; i--) {
+        if (i % mult == 0) {
+            console.log(i);
+        }
+    }
+}
+flexCountdown(2, 9, 3);
+
+// The Final Countdown
+console.log("\nThe Final Countdown");
+
+function finalCountdown(param1, param2, param3, param4) {
+    var i = param2;
+    while (i <= param3) {
+        if (i % param1 == 0 && i != param4) {
+            console.log(i);
+        }
+        i++;
+    }
+}
+finalCountdown(3, 5, 17, 9);
+
+
+// Page 20
+// Countdown
+console.log("\nCountdown");
